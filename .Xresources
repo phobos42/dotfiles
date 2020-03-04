@@ -1,0 +1,10 @@
+Xft.dpi: 120
+
+URxvt*font: xft:Inconsolata for Powerline:style=Medium:size=14,xft: Symbola:size=10
+!URxvt*font: xft: Liberation Mono:pixelsize=14,xft: DejaVu Sans Mono,xft: Symbola:size=5,xft: Unifont
+URxvt.transparent:   true
+URxvt.shading:       20
+URxvt.scrollBar: false
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
