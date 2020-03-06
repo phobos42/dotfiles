@@ -9,7 +9,7 @@
 #umask 022
 
 #Default programs:
-export EDITOR="vim"
+export EDITOR="nvim"
 export TERMINAL="/usr/bin/urxvt"
 export BROWSER="brave"
 export FILE="ranger"

@@ -1,6 +1,10 @@
 Xft.dpi: 120
 
-URxvt*font: xft:Inconsolata for Powerline:style=Medium:size=14,xft: Symbola:size=10
+!xset +fp /home/spit2/.local/share/fonts
+!xset fp rehash
+
+URxvt*font: xft:Inconsolata for Powerline:style=Medium:size=14,xft:Terminess Powerline:size=12,xft: siji:pixelsize=10,xft: Symbola:size=10
+
 !URxvt*font: xft: Liberation Mono:pixelsize=14,xft: DejaVu Sans Mono,xft: Symbola:size=5,xft: Unifont
 URxvt.transparent:   true
 URxvt.shading:       20
