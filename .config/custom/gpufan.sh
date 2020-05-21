@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #nvidia-settings -a "[gpu:0]/GPUFanControlState=1"
 while true; do
 

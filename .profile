@@ -9,6 +9,7 @@
 #umask 022
 
 #Default programs:
+export PAGER="less"
 export EDITOR="nvim"
 export TERMINAL="/usr/bin/urxvt"
 export BROWSER="brave"

@@ -107,6 +107,8 @@ alias i3config="vim ~/.config/i3/config"
 alias rangerconfig="vim ~/.config/ranger/rc.conf"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias nvimconfig='vim ~/.config/nvim/init.vim'
+alias v="nvim"
+alias vim="nvim"
 
 
 

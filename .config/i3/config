@@ -4,10 +4,7 @@
 #monitor configuration
 exec ~/.config/custom/monitor.sh
 exec_always xrdb -merge ~/.Xresources
-#exec_always --nostartup-id feh --bg-scale ~/Pictures/background/spacegalaxy.jpg
-#exec --no-startup-id ~/.fehbg &
 #background setting
-#exec_always nitrogen --restore
 exec /usr/bin/gpufan.sh
 exec_always walsave.sh
 #exec_always --no-startup-id compton --opacity-rule '100:window_type = "dock" && class_g = "i3bar"' --config ~/.config/comptop.conf -b 
@@ -21,7 +18,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 2 toggle  # mute 
 
 
 # #--- gaps ---# #
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 4
 gaps inner 5
 gaps outer 0
 
@@ -32,10 +29,12 @@ bindsym $mod+shift+g gaps inner all minus 5
 
 
 
-# --- Bar --- #
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#Bar
 bar {
-  font pango:monospace 10
-  status_command i3status
+ font pango:nasalization 10
+#font pango:monospace 10
+ status_command i3status -c $HOME/.config/i3status/i3status.conf
   position top
 #	mode dock
 #	modifier None
@@ -65,8 +64,11 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # #---Letter Key Bindings---# #
 
+#Print screen
+bindsym Print exec gnome-screenshot -i
 
-
+#Power Settings:
+bindsym $mod+p exec powertoggle.sh
 
 bindsym $mod+Shift+q kill
 
