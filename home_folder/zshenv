@@ -1,0 +1,3 @@
+#this file is used instead of .profile when zsh is the login shell
+#.zprofile located in ZDOTDIR is used instead of others
+export ZDOTDIR="$HOME/.dotfilerepo/zsh"
