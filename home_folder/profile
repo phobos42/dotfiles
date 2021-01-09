@@ -5,4 +5,5 @@
 [[ $XDG_VTNR -le 2 ]] && tbsm
 
 
-
+#display android studio
+export _JAVA_AWT_WM_NONREPARENTING=1
