@@ -1,0 +1,16 @@
+#GOPATH
+export GOPATH=$HOME/lang/go
+export PATH=$PATH:$GOPATH/bin
+
+#custom shell script dir
+export PATH="$PATH:$HOME/.dotfilerepo/custom/"
+
+#display android studio
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+#Aliases
+alias zshconfig="vim $HOME/.dotfilerepo/shell/zsh/.zshrc"
+alias planckconfig="vim $HOME/repos/qmk_firmware/keyboards/planck/keymaps/phobos42/keymap.c"
+alias xd75config="vim $HOME/repos/qmk_firmware/keyboards/xd75/keymaps/phobos42/keymap.c"
+alias editsources="vim $HOME/.dotfilerepo/shell/sources"
+alias sourcesources="source $HOME/.dotfilerepo/shell/sources"

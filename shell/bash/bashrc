@@ -1,12 +1,11 @@
-#
-# ~/.dotfilerepo/bashrc
-#
+#bashrc file
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-
 export HISTFILE=$HOME/.history/bash_history
+
+source $HOME/.dotfilerepo/shell/sources
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '

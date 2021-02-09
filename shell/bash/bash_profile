@@ -1,0 +1,4 @@
+#bash_profile
+
+[[ -f $HOME/.dotfilerepo/shell/bash/bashrc ]] && . $HOME/.dotfilerepo/shell/bash/bashrc
+[[ $XDG_VTNR -le 2 ]] && tbsm
