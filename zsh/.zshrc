@@ -104,5 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias zshconfig="vim ~/.dotfilerepo/zsh/.zshrc"
-alias planckconfig="vim ~/repos/qmk_firmware/keyboards/planck/keymaps/phobos42/keymap.c"
+alias zshconfig="vim $HOME/.dotfilerepo/zsh/.zshrc"
+alias planckconfig="vim $HOME/repos/qmk_firmware/keyboards/planck/keymaps/phobos42/keymap.c"
