@@ -6,7 +6,11 @@ export ZSH="$HOME/.dotfilerepo/zsh/oh-my-zsh"
 
 #zsh history
 export HISTFILE=$HOME/.history/zsh_history
-
+#GOPATH
+export GOPATH=$HOME/lang/go
+export PATH=$PATH:$GOPATH/bin
+#custom shell script dir
+export PATH="$PATH:$HOME/.dotfilerepo/custom/"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -100,3 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="vim ~/.dotfilerepo/zsh/.zshrc"
+alias planckconfig="vim ~/repos/qmk_firmware/keyboards/planck/keymaps/phobos42/keymap.c"

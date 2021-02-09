@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo openvpn --config $HOME/openvpn/linode_client.ovpn
