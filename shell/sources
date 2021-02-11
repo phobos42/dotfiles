@@ -8,6 +8,9 @@ export PATH="$PATH:$HOME/.dotfilerepo/custom/"
 #display android studio
 export _JAVA_AWT_WM_NONREPARENTING=1
 
+#vimrc
+export VIMINIT="source ~/.dotfilerepo/config/vim/vimrc"
+
 #Aliases
 alias zshconfig="vim $HOME/.dotfilerepo/shell/zsh/.zshrc"
 alias planckconfig="vim $HOME/repos/qmk_firmware/keyboards/planck/keymaps/phobos42/keymap.c"
