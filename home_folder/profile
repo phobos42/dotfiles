@@ -1,7 +1,5 @@
 #source bashrc file
 [[ -f $HOME/.dotfilerepo/shell/bash/bashrc ]] && . $HOME/.dotfilerepo/shell/bash/bashrc
 
-export FUCK="SHIT"
-
 #if this is a login shell launch tbsm
 [[ $XDG_VTNR -le 2 ]] && tbsm
