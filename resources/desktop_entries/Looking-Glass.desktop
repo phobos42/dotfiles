@@ -1,0 +1,17 @@
+[Desktop Entry]
+
+Type=Application
+
+Name=Looking Glass
+
+Comment=Shared Memory vm spice viewer
+
+Path=/home/dione/Programs/looking_glass
+
+Exec=/home/dione/Programs/looking_glass/looking-glass-client
+
+Icon=/home/dione/Programs/looking_glass/looking-glass-icon.png
+
+Terminal=false
+
+Catagories=Utilities
