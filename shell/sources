@@ -15,7 +15,12 @@ export VIMINIT="source ~/.dotfilerepo/config/vim/vimrc"
 
 #Aliases
 alias zshconfig="vim $HOME/.dotfilerepo/shell/zsh/.zshrc"
+
 alias planckconfig="vim $HOME/repos/qmk_firmware/keyboards/planck/keymaps/phobos42/keymap.c"
+alias flashplanck="cd $HOME/repos/qmk_firmware && sudo qmk flash -kb planck/ez/glow -km phobos42"
+
 alias xd75config="vim $HOME/repos/qmk_firmware/keyboards/xd75/keymaps/phobos42/keymap.c"
+alias flashxd75="cd $HOME/repos/qmk_firmware && sudo qmk flash -kb xd75 -km phobos42"
+
 alias editsources="vim $HOME/.dotfilerepo/shell/sources"
 alias sourcesources="source $HOME/.dotfilerepo/shell/sources"

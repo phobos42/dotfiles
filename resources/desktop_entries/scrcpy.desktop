@@ -1,0 +1,17 @@
+[Desktop Entry]
+
+Type=Application
+
+Name=scrcpy
+
+Comment=Android Screen Mirroring
+
+Path=/usr/bin/
+
+Exec=/usr/bin/scrcpy
+
+Icon=/home/dione/.dotfilerepo/resources/desktop_entries/scrcpy.png
+
+Terminal=false
+
+Catagories=Utilities
