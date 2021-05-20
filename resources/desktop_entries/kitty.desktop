@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=System;TerminalEmulator;
+Comment=Fast, feature-rich, GPU based terminal
+GenericName=Terminal emulator
+Icon=kitty
+Name=kitty
+NoDisplay=true
+TryExec=kitty
+Exec=env KITTY_CONFIG_DIRECTORY="$HOME/.dotfilerepo/shell/kitty" kitty
+Type=Application
+Version=1.0
