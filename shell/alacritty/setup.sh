@@ -12,8 +12,8 @@ createlink(){
 		ln -s $1 $2
 	fi
 }
-RPATH=$HOME/.dotfilerepo/shell/alacritty/
-ENDPATH=$HOME/.config/alacritty/
+RPATH=$HOME/.dotfilerepo/shell/alacritty
+ENDPATH=$HOME/.config/alacritty
 
 createlink $RPATH/alacritty.yml $ENDPATH/alacritty.yml
 
