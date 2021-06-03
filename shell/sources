@@ -10,10 +10,14 @@ export PATH="$PATH:$HOME/.dotfilerepo/custom/"
 #dotNET
 export PATH="$PATH:$HOME/.dotnet/"
 export PATH="$PATH:$HOME/.dotnet/tools"
-export DOTNET_ROOT="$HOME/.dotnet"
+export DOTNET_ROOT=$(dirname $(realpath $(which dotnet)))
 
 #display android studio
 export _JAVA_AWT_WM_NONREPARENTING=1
+
+#gem
+export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
+export PATH="$PATH:/root/.local/share/gem/ruby/3.0.0/bin"
 
 #kitty config
 export KITTY_CONFIG_DIRECTORY="$HOME/.dotfilerepo/shell/kitty"
