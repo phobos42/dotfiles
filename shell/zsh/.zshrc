@@ -7,6 +7,18 @@ export ZSH="$HOME/.dotfilerepo/shell/zsh/oh-my-zsh"
 #zsh history
 export HISTFILE=$HOME/.history/zsh_history
 source $HOME/.dotfilerepo/shell/sources
+
+#dotnet completion
+_dotnet_zsh_complete()
+{
+  local completions=("$(dotnet complete "$words")")
+
+  reply=( "${(ps:\n:)completions}" )
+}
+
+compctl -K _dotnet_zsh_complete dotnet
+
+
 #Moved to sources
 # #GOPATH
 # export GOPATH=$HOME/lang/go
