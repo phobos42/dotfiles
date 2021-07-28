@@ -18,6 +18,10 @@ export PATH="$PATH:$HOME/.cargo/bin"
 #display android studio
 export _JAVA_AWT_WM_NONREPARENTING=1
 
+#Angular Testing
+export CHROME_BIN=$(which brave)
+
+
 #gem
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 export PATH="$PATH:/root/.local/share/gem/ruby/3.0.0/bin"
@@ -36,6 +40,8 @@ alias flashplanck="cd $HOME/repos/qmk_firmware && sudo qmk flash -kb planck/ez/g
 
 alias xd75config="vim $HOME/repos/qmk_firmware/keyboards/xd75/keymaps/phobos42/keymap.c"
 alias flashxd75="cd $HOME/repos/qmk_firmware && sudo qmk flash -kb xd75 -km phobos42"
+
+alias flashsofle="cd $HOME/repos/qmk_firmware && sudo qmk flash -kb sofle -km phobos42 -bl dfu"
 
 alias editsources="vim $HOME/.dotfilerepo/shell/sources"
 alias sourcesources="source $HOME/.dotfilerepo/shell/sources"
