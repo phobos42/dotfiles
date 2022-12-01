@@ -3,3 +3,7 @@
 
 #if this is a login shell launch tbsm
 [[ $XDG_VTNR -le 2 ]] && tbsm
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
