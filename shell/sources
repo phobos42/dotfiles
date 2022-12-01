@@ -7,6 +7,9 @@ export PATH=$PATH:$GOPATH:$GOBIN
 #custom shell script dir
 export PATH="$PATH:$HOME/.dotfilerepo/custom/"
 
+#Fix scaling
+#export PLASMA_USE_QT_SCALING=1
+
 #dotNET
 export PATH="$PATH:$HOME/.dotnet/"
 export PATH="$PATH:$HOME/.dotnet/tools"
@@ -30,9 +33,14 @@ export PATH="$PATH:/root/.local/share/gem/ruby/3.0.0/bin"
 export KITTY_CONFIG_DIRECTORY="$HOME/.dotfilerepo/shell/kitty"
 
 #vimrc
-export VIMINIT="source ~/.dotfilerepo/config/vim/vimrc"
+export VIMINIT="source ~/.dotfilerepo/config/nvim/init.vim"
+
+#vst plugin dir
+export LXVSTZ_PATH="$HOME/Music/plugin"
 
 #Aliases
+alias vim="nvim"
+
 alias zshconfig="vim $HOME/.dotfilerepo/shell/zsh/.zshrc"
 
 alias planckconfig="vim $HOME/repos/qmk_firmware/keyboards/planck/keymaps/phobos42/keymap.c"
@@ -45,3 +53,6 @@ alias flashsofle="cd $HOME/repos/qmk_firmware && sudo qmk flash -kb sofle -km ph
 
 alias editsources="vim $HOME/.dotfilerepo/shell/sources"
 alias sourcesources="source $HOME/.dotfilerepo/shell/sources"
+
+alias mpvloudlist="mpv --af=format=channels=stereo,loudnorm ."
+alias mpvloud="mpv --af=format=channels=stereo,loudnorm"
