@@ -1,3 +1,4 @@
+
 [Desktop Entry]
 
 Type=Application
@@ -6,9 +7,9 @@ Name=Looking Glass
 
 Comment=Shared Memory vm spice viewer
 
-Path=/home/dione/Programs/looking_glass
+Path=/home/dione/repos/LookingGlass/client/build
 
-Exec=/home/dione/Programs/looking_glass/looking-glass-client
+Exec=/home/dione/repos/LookingGlass/client/build/looking-glass-client
 
 Icon=/home/dione/Programs/looking_glass/looking-glass-icon.png
 
