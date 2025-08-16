@@ -122,3 +122,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="vim $HOME/.dotfilerepo/shell/zsh/.zshrc"
 # alias planckconfig="vim $HOME/repos/qmk_firmware/keyboards/planck/keymaps/phobos42/keymap.c"
 # alias xd75config="vim $HOME/repos/qmk_firmware/keyboards/xd75/keymaps/phobos42/keymap.c"
+
+# Created by `pipx` on 2024-07-23 22:21:23
+export PATH="$PATH:/home/dione/.local/bin"

@@ -4,3 +4,6 @@
 #if this is a login shell launch tbsm
 [[ $XDG_VTNR -le 2 ]] && tbsm
 
+
+# Created by `pipx` on 2024-07-23 22:21:23
+export PATH="$PATH:/home/dione/.local/bin"

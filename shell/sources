@@ -24,6 +24,8 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 #Angular Testing
 export CHROME_BIN=$(which brave)
 
+#bin
+export PATH="$PATH:$HOME/.local/bin"
 
 #gem
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
